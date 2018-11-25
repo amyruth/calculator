@@ -17,13 +17,11 @@ clearKey.addEventListener("click", () => {
   calcWindow.value = null;
 });
 
-decimal.addEventListener('click', () = {
-
-});
+// git status
 
 // changed to event iistener on parent element. I forgot about that
 keyPad.addEventListener('click', (e) => {
-	console.log(e.target);
+	// console.log(e.target);
 	if(e.target.classList.contains('number-btn')){
 		let numValue = e.target.textContent;
 		calcWindow.value += numValue;
