@@ -20,6 +20,7 @@ clearKey.addEventListener("click", () => {
 // git status
 
 // changed to event iistener on parent element. I forgot about that
+//need to add condition to prevent multiple decimals in a row
 keyPad.addEventListener('click', (e) => {
 	// console.log(e.target);
 	if(e.target.classList.contains('number-btn')){
