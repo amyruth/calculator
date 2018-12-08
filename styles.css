@@ -44,6 +44,8 @@ body {
   /* border-bottom: 2px solid #666; */
   border: 2px solid #222;
   padding-right: 5px;
+  font-family: 'Orbitron', sans-serif;
+  /* font-weight: bold; */
 }
 
 .calc-keypad {

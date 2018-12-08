@@ -3,7 +3,7 @@ const calcWindow = document.querySelector(".calc-window");
 const clearKey = document.querySelector(".clear-btn");
 const keyPad = document.querySelector('.calc-keypad');
 const decimal = document.querySelector('.is-decimal');
-let currentKey = 0;
+let currentKey = null;
 
 
 // numButton.forEach(button => {
@@ -14,7 +14,8 @@ let currentKey = 0;
 // });
 
 clearKey.addEventListener("click", () => {
-  calcWindow.value = null;
+	currentKey = "";
+  	calcWindow.value = null;
 });
 
 // git status
